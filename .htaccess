@@ -1,5 +1,0 @@
-<Directory /secret>
-    # Everything under the 
-    Require valid-user
-    # AuthType "Mellon"
-</Directory>
