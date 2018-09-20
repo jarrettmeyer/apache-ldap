@@ -1,3 +1,4 @@
-AuthName    "Network Login"
-AuthType    SSPI
-Require     valid-user
+<Location /secret>
+    Require valid-user
+    AuthType "Mellon"
+</Location>
