@@ -1,4 +1,5 @@
-<Location /secret>
+<Directory /secret>
+    # Everything under the 
     Require valid-user
-    AuthType "Mellon"
-</Location>
+    # AuthType "Mellon"
+</Directory>
