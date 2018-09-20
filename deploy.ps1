@@ -5,3 +5,5 @@ Write-Host
 Write-Host "Commit Message: $commitMessage"
 Write-Host
 git push origin master
+Write-Host
+oc start-build demo --follow
