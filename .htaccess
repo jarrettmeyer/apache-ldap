@@ -1,0 +1,5 @@
+<Location /secret>
+    Require valid-user
+    AuthType "mellon"
+    MellonEnable "info"
+</Location>
