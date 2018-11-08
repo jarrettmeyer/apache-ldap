@@ -1,6 +1,0 @@
-Require valid-user
-AuthType "Mellon"
-MellonEnable "auth"
-MellonSecureCookie On
-MellonEndpointPath "/secret/endpoint"
-
