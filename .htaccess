@@ -1,5 +1,6 @@
-<Location /secret>
-    Require valid-user
-    AuthType "mellon"
-    MellonEnable "info"
-</Location>
+Require valid-user
+AuthType "Mellon"
+MellonEnable "auth"
+MellonSecureCookie On
+MellonEndpointPath "/secret/endpoint"
+
